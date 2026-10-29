@@ -1,0 +1,37 @@
+header {background-color:darkslategray;
+    color:#f3dbdb;
+    text-align: right;
+    padding: 10px;
+
+}
+
+body {color:darkslategrey;
+    font-family: Arial, sans-serif;
+    background-color: #f3dbdb;}
+
+    nav ul li a { color:rgb(238, 115, 217);}
+    nav ul li a:hover { color:floralwhite;}
+    nav ul li a:after { color: red;}
+    nav ul{background-color:darkslategrey;}
+    nav ul li {text-align:left;}
+
+
+footer {background-color:darkslategray;
+    color:#f3dbdb;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;}  
+
+img {border: 5px solid black;
+border-style: solid;
+border-radius: 10px;}
+
+
+div {display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:center;
+}

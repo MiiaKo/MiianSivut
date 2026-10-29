@@ -1,0 +1,29 @@
+
+
+.jakokahteen {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 1rem; 
+    align-items: center;
+    
+}
+
+#etusivunjakokahteen {
+    border: 1px solid black;
+}
+
+h3 {
+    color:blueviolet;
+    
+}
+p {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:deeppink;
+    font-size: 120%;
+}
+
+.leipäteksti_etusivu {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color:floralwhite;
+    font-size: 100%;
+}
