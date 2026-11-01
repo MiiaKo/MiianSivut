@@ -1,4 +1,7 @@
-
+.header-teksti {
+    display: flex;
+    flex-direction: column;
+}
 
 .jakokahteen {
     display: flex; 
@@ -13,17 +16,17 @@
 }
 
 h3 {
-    color:blueviolet;
+    color:black;
     
 }
 p {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:deeppink;
+    color: violet;
     font-size: 120%;
 }
 
 .leipäteksti_etusivu {
     font-family: 'Arial Narrow', Arial, sans-serif;
-    color:floralwhite;
+    color: black;
     font-size: 100%;
 }

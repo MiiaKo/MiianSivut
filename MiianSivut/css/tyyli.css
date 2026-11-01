@@ -1,23 +1,33 @@
-header {background-color:darkslategray;
-    color:#f3dbdb;
-    text-align: right;
+
+header {background-color:#f9ede5;
+    color: red;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 10px;
+    border-bottom: 1px solid black;}
 
-}
+body {background-color: #f9ede5;
+    color: black;
+    font-family: Arial, sans-serif;}
 
-body {color:darkslategrey;
+main {
+    color: black;
     font-family: Arial, sans-serif;
-    background-color: #f3dbdb;}
+    background: linear-gradient(to right, #dc96ee, #693277);}
 
-    nav ul li a { color:rgb(238, 115, 217);}
-    nav ul li a:hover { color:floralwhite;}
-    nav ul li a:after { color: red;}
-    nav ul{background-color:darkslategrey;}
-    nav ul li {text-align:left;}
+nav ul a { color: black; text-decoration: none; padding: 10px; display:inline-flex;}
+nav ul a:hover { background-color: #dc96ee;}
+nav ul a {background-color:#f9ede5;}
+nav ul a {text-align:center;}
+nav ul a {list-style: none;}
+nav ul a {font-family:fantasy;}
+nav ul a {border: 1px solid black; border-radius: 5px; margin: 5px; padding: 5px;}
 
 
-footer {background-color:darkslategray;
-    color:#f3dbdb;
+footer {background-color: #f9ede5;
+    color: #693277;
     text-align: center;
     padding: 10px;
     position: fixed;
