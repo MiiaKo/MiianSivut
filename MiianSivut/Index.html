@@ -12,46 +12,49 @@
         
         <header>  <!--Tämä on header osio, mihin tulee logo tai kuva sekä mahdollisesti valikko-->
               <nav> 
-                 <a href="index.html"><img src="img/LogoMiia.png" alt="Logo" width="120px" height="80px" style="border: 5px; margin: 5px;"></a>
+                <div>
+                    <a href="index.html"><img src="img/LogoMiia.png" alt="Logo" width="120px" height="80px" style="border: 5px; margin: 5px;"></a>
+                    <h1>Miian sivut</h1> 
+                </div>
 
-                 <div class="header-teksti">
-                     <p>Miian sivut</p>
+                 <div> 
                  <p><em>Tämä on yksinkertainen esimerkki sivusta, jossa käytetään HTML- ja CSS-kieliä.</em></p>
                  </div>
                 
             <ul>
-               
-                <a href="index.html"aria-current="page">Etusivu</a>
-                <a href="osaaminen.html">Osaaminen</a>
-                <a href="harrastukset.html">Harrastukset</a>
-                <a href="yhteystiedot.html">Yhteystiedot</a>
-                <a href="yhteystietolomake.html">Lomake</a>
-                <a href="tietoja_tasta_sivusta.html">Tietoja tästä sivusta</a>
+                <a href="index.html" aria-current="page">Etusivu</a>
+                <a href="Sivut/osaaminen.html">Osaaminen</a>
+                <a href="Sivut/harrastukset.html">Harrastukset</a>
+                <a href="Sivut/yhteystiedot.html">Yhteystiedot</a>
+                <a href="Sivut/tietoja_tasta_sivusta.html">Tietoja tästä sivusta</a>
             </ul>
                 </nav>
-               
-            
-            
            
         </header>
         <main>
 
     <h2>Osiot</h2>
-    <!-- Tämä on esimerkki siitä, miten voit jakaa sisältöä kahteen osaan. -->
-    <div class="jakokahteen" id="etusivunjakokahteen">
-        <div>
-            <h3>Ensimmäinen osa</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. </p>
-            <img src="img/jokukuva.jpg" alt="Joku kuva" width="100px" height="50px">
-        </div>
-        <div>
-            <h3>Toinen osa</h3>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. </p>
-    </div>
+   
     <p class="leipäteksti_etusivu"> Tähän lisätään <br> lisää sisältöä.</p>
 
-    </main>
+    <!-- Kortit-->
+    <div class="kortit" >
+        <div class="kortti">
+            <a href="osaaminen.html"><h3>Osaaminen</h3>
+            <p>Tässä osiossa voit esitellä osaamistasi ja taitojasi. jlhlhlkkllkjl</p></a>
+            
+        </div>
+        <div class="kortti">
+            <h3>Harrastukset</h3>
+            <p>Tässä osiossa voit kertoa harrastuksistasi ja mielenkiinnon kohteistasi.</p>
+            <a href="harrastukset.html">Lue lisää</a>
+        </div>
+        <div class="kortti">
+            <h3>Yhteystiedot</h3>
+            <p>Tässä osiossa voit antaa yhteystietosi, jotta ihmiset voivat ottaa sinuun yhteyttä.</p>
+            <a href="yhteystiedot.html">Lue lisää</a>
+        </div>   
+   </main>
 
 
     
@@ -59,5 +62,7 @@
         <footer>
             <p>© 2026 Miian sivut. Kaikki oikeudet pidätetään.</p>
         </footer>
-    </body> 
+
+        </body> 
+    
 </html>
