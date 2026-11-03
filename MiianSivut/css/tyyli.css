@@ -19,12 +19,13 @@ main {
     background: linear-gradient(to right, #dc96ee, #693277);}
 
 nav ul a {color: black; text-decoration: none; padding: 10px; display:inline-flex;}
-nav ul a:hover { background-color: #dc96ee;}
+nav ul a:hover {background-color: #dc96ee;}
 nav ul a {background-color:#f9ede5;}
 nav ul a {text-align:center;}
 nav ul a {list-style: none;}
 nav ul a {font-family:fantasy;}
-nav ul a {border: 1px solid black; border-radius: 5px; margin: 5px; padding: 5px;}
+nav ul a {border: 2px solid #693277; border-radius: 8px; margin: 5px; padding: 5px;}
+
 
 
 footer {background-color: #f9ede5;
@@ -37,9 +38,11 @@ footer {background-color: #f9ede5;
     border-top: 1px solid black;
     font-size: 100%;}  
 
-img {border: 5px solid black;
+img {
 border-style: solid;
-border-radius: 10px;}
+border-radius: 10px;
+filter: sepia(100%);
+}
 
 
 div {display: flex;
