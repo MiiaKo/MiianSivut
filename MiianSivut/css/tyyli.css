@@ -1,4 +1,19 @@
 
+h1 {
+    color:#693277;  
+    font-family:fantasy;
+}
+
+h2 {
+    color:black;
+      font-family:fantasy;
+}
+
+h3 {
+    color:black; 
+    font-family:fantasy; 
+}
+
 header {background-color:#f9ede5;
     color: #693277;
     text-align: center;
@@ -39,9 +54,10 @@ footer {background-color: #f9ede5;
     font-size: 100%;}  
 
 img {
-border-style: solid;
+/*border-style: solid;*/
 border-radius: 10px;
-filter: sepia(100%);
+width: 20%;
+  mask-image: linear-gradient(to bottom, #693277 50%, rgba(193, 87, 87, 0) 100%);
 }
 
 
@@ -50,4 +66,66 @@ div {display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content:center;
+}
+
+form {
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px;
+    background-color: #f9ede5;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    border-width: 2px;
+    border-radius: 8px;
+}
+
+/*Kenttien tyyli*/
+input[type=text], select {
+  width: 100%;
+  padding: 6px;
+  margin: 2px auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=text]:focus {
+  border: 2px solid #693277;
+  outline: none;
+}
+
+/*Viestikentän tyyli*/
+textarea {
+  width: 100%;
+  padding: 6px;
+  margin: 2px auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+textarea:focus {
+  border: 2px solid #693277;
+  outline: none;
+}
+
+/*Lähetä-painikkeen tyyli*/
+input[type=submit] {
+  width: 100%;
+  background-color: #dc96ee;
+  color: black;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #693277;
+  color: white;
 }

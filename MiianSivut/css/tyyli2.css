@@ -49,3 +49,15 @@ h3 {
     transition: transform 0.5s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
+
+.mask1 {
+    mask-image: linear-gradient(#693277, transparent);
+}
+
+.mask2 {
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 50%);
+}
+
+.mask3 {
+    background: linear-gradient(to top, #693277 100%, rgba(0, 0, 0, 0) 100%);
+}
