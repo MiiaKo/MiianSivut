@@ -1,17 +1,19 @@
 
+
+/*Otsikoiden tyyli*/
 h1 {
     color:#693277;  
-    font-family:fantasy;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2 {
-    color:black;
-      font-family:fantasy;
+    color:#f9ede5;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h3 {
     color:black; 
-    font-family:fantasy; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
 }
 
 header {background-color:#f9ede5;
@@ -53,12 +55,12 @@ footer {background-color: #f9ede5;
     border-top: 1px solid black;
     font-size: 100%;}  
 
-img {
-/*border-style: solid;*/
+/*img {
+border-style: solid;
 border-radius: 10px;
 width: 20%;
   mask-image: linear-gradient(to bottom, #693277 50%, rgba(193, 87, 87, 0) 100%);
-}
+}*/
 
 
 div {display: flex;

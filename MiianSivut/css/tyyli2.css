@@ -1,8 +1,6 @@
 
 
-h3 {
-    color:black;  
-}
+
 
 /*p {
     color:black;
@@ -27,6 +25,7 @@ h3 {
 
 .kortti {
     flex: 200px;
+    height: 150px;
     background-size: cover;
     border: 2px solid #ccc;
     border-radius: 8px;
@@ -40,9 +39,7 @@ h3 {
         color: black;
         font-family: Arial, sans-serif;
         font-size: 100%;
-    }
-    
-    
+    } 
 }
 .kortti:hover {
     transform:translateY(-20px);
@@ -51,13 +48,55 @@ h3 {
 }
 
 .mask1 {
-    mask-image: linear-gradient(#693277, transparent);
+    -webkit-mask-image: linear-gradient(rgb(188, 62, 192), transparent);
+  mask-image: linear-gradient(rgb(154, 33, 150), transparent);
 }
 
 .mask2 {
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 50%);
+    mask-size: cover;
+    mask-image: linear-gradient(to bottom, rgb(110, 40, 160, 1) 30%, rgba(21, 8, 208, 0) 100%);
 }
 
 .mask3 {
-    background: linear-gradient(to top, #693277 100%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to top,rgba(110, 40, 160, 1) 0%, rgba(110, 40, 160, 0) 100%);
+}
+
+.tausta1 {
+    background: linear-gradient(to right, #ef9356, #eebd96);
+    padding: 8px;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.tausta2 {
+    background: linear-gradient(to right, #dc96ee, #693277);;
+    padding: 8px;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: right;
+    
+}
+.tausta3 {
+    padding: 8px;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    
+}
+/*Osaaminen-sivua varten erilainen sivurakenne*/
+.container {
+    display: grid;
+    grid-template-areas: "koulutus" "työhistoria" "taidot";
+    grid-template-columns: 1fr 3fr;
+    /*flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;*/
+
 }
