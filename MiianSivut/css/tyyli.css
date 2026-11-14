@@ -7,8 +7,9 @@ h1 {
 }
 
 h2 {
-    color:#f9ede5;
+    color: #f9ede5;
       font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin: 0px;     
 }
 
 h3 {
@@ -16,19 +17,26 @@ h3 {
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
 }
 
-header {background-color:#f9ede5;
-    color: #693277;
-    text-align: center;
-    /*display: flex;*/
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    border-bottom: 1px solid black;
-    font-size: 100%;}
+
+
+
+  header {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    z-index: 10;
+}
+
+
 
 body {background-color: #f9ede5;
     color: black;
-    font-family: Arial, sans-serif;}
+    font-family: Arial, sans-serif;
+    margin: 0; /*ei oletusreunaa*/
+    padding: 0;
+   }
 
 main {
     color: black;
@@ -45,11 +53,11 @@ nav ul a {border: 2px solid #693277; border-radius: 8px; margin: 5px; padding: 5
 
 
 
+
 footer {background-color: #f9ede5;
     color: #693277;
     text-align: center;
     padding: 10px;
-    position: fixed;
     bottom: 0;
     width: 100%;
     border-top: 1px solid black;
@@ -65,7 +73,7 @@ width: 20%;
 
 div {display: flex;
     gap: 1rem;
-    align-items: center;
+    align-items: left;
     flex-wrap: wrap;
     justify-content:center;
 }

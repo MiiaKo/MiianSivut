@@ -5,69 +5,74 @@
         <link rel="stylesheet" href="../css/tyyli2.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <title>Miian sivut</title>
     </head>
     <body>
         <header>
             <!--Tämä on header osio, mihin tulee logo tai kuva sekä mahdollisesti valikko-->
             <nav>
-                <div>
-            <a href="../index.html"><img src="../img/LogoMiia.png" alt="Logo" width="120px" height="80px" style="border: 5px; margin: 5px;"></a>
-            <h1>Osaaminen</h1>
-                </div>
-                <div>
-            <p><em>Tämä on yksinkertainen esimerkki sivusta, jossa käytetään HTML- ja CSS-kieliä.</em></p>
-                </div>
-               
-            <ul>
+                <ul>
                 <a href="../index.html">Etusivu</a>
-                <a href="../Sivut/osaaminen.html"aria-current="page">Osaaminen</a>
+                <a href="../Sivut/osaaminen.html"aria-current="page" style="background-color:#dc96ee">Osaaminen</a>
                 <a href="../Sivut/harrastukset.html">Harrastukset</a>
                 <a href="../Sivut/yhteystiedot.html">Yhteystiedot</a>
                 <a href="../Sivut/tietoja_tasta_sivusta.html">Tietoja tästä sivusta</a>
-            </ul>
-        </nav>
+                </ul>
+                <div>
+                    <a href="../index.html"><img src="../img/LogoMiia.png" alt="Logo" width="120px" height="80px" style="border: 5px; margin: 5px;"></a>
+                </div>
+            </nav>
         </header>
 
-<main>
-    <h2>Osiot</h2>
-    <div class="jako kahteen" id="Etusivun jako kahteen">
-        <div>
-            <h3>Ensimmäinen osa</h3>
-            <p>Tänne voisi tehdä osioita (cv-tyyliin?) </p>
-        </div>
-        <div>
-            <h3>Toinen osa</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. </p>
-    </div>
-
-</main>
-
-<div class="container">
-
-
-    <div class="koulutus">
-        <h3>Koulutus</h3>
-        <img src="../img/jokukuva.jpg" alt="kuva" width="200px" height="150px" style="border: 5px; margin: 5px;"  class="mask1">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. </p>
-    </div>
-    <div class="työhistoria">
-        <h3>Työhistoria</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. </p>
-    </div>
-    <div class="taidot">
-        <h3>Taidot</h3>
-        <img src="../img/jokukuva.jpg" alt="kuva" width="200px" height="150px" style="border: 5px; margin: 5px;"  class="mask1">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. </p>
-    </div>
-    <div class="lisaosaaminen">
-        <h3>Lisäosaaminen</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. </p>
-    </div>
-    </div>
-
-    
-    
+        <main>
+            <div class="container">
+                <div class="container_sisus">
+                    
+                        <h3>Koulutus</h3>
+                        <ul style="list-style-type: circle;">
+                            <li>2025- Sakky <br> <em>Tieto- ja viestintätekniikka</em></li>
+                            <li>2021-2023 Savonia YAMK <br> <em>Digitalisaation asiantuntija sotealalla</em></li>
+                            <li>2019-2020 UEF <br><em>SMART ICT-polku, 37op</em></li>
+                            <li>2014-2017 Savonia <br> <em>Bioanalyytikko</em></li>
+                            <li>2005-2008 Sakky <br><em>Laborantti</em></li>
+                        </ul>
+                    
+                </div>
+                    
+                <div class="container_sisus">
+                    
+                        <h3>Työhistoria</h3>
+                        <ul style="list-style-type: circle;">
+                            <li>1.9.2024- Itä-Suomen Yliopisto <br> <em>Tutkimusjoordinaattori</em></li>
+                            <li>1.1.2018- PSHVA/Itä-Suomen Biopankki <br> <em>Vastaava laboratorionhoitaja</em></li>
+                            <li>1.4.2017-31.12.2017 Islab <br><em>Laboratorionhoitaja</em></li>
+                            <li>1.6.2012-26.3.2017 Charles River DRS Finland Oy<br> <em>Technician II</em></li>
+                            <li>2010-2012 Kuopion Yliopisto<br><em>Laborantti</em></li>
+                        </ul>
+                </div>
+                <div class="container_sisus">
+                     <h3>Taidot</h3>
+                    <ul style="list-style-type: circle;">
+                            <li>Organisointikyky</li>
+                            <li>Kokonaisuuksien hallinta</li>
+                            <li>Yrittäjäasenne</li>
+                            <li>Itseohjautuvuus</li>
+                        </ul>
+                </div>
+                <div class="container_sisus">
+                    
+                        <h3>Lisäosaaminen</h3>
+                    
+                    <ul style="list-style-type: circle;">
+                            <li>Sisäisen auditoinnin koulutus</li>
+                            <li>Hamilton Microlab Star nesteenkäsittelyrobotin perusohjelmointi</li>
+                            <li>IATA-koulutus</li>
+                            <li>Projektinhallinta</li>
+                        </ul>
+                </div>
+            </div>  
+        </main>
 
         <footer>
             <p>© 2026 Miian sivut. Kaikki oikeudet pidätetään.</p>

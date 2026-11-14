@@ -16,6 +16,28 @@
 }*/
 
 
+.hero-kuva {
+    background-image: linear-gradient(rgba(105, 50, 119, 0.5), rgba(105, 50, 119, 0.5)), url('../img/hero_kuva.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    /*align-items: flex-start; /*teksti yläreunaan*/
+    /*justify-content: flex-start; /*teksti vasemmalle*/
+    margin-top: 0; /*yläreunan marginaali pois*/
+}
+.hero-kuva div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+.hero-kuva h1,
+.hero-kuva p{
+    margin: 0;
+}
+
 .kortit {
     display: flex;
     flex-wrap: wrap;
@@ -62,14 +84,15 @@
 }
 
 .tausta1 {
-    background: linear-gradient(to right, #ef9356, #eebd96);
+    background-color: #dc96ee;
     padding: 8px;
     margin: 5px;
-    text-align: center;
     display: flex;
-    justify-content: left;
-    
+    flex-direction: column; /*tekstit menee omille riveille*/
+    align-items: flex-start;
+    text-align: left;    
 }
+
 
 .tausta2 {
     background: linear-gradient(to right, #dc96ee, #693277);;
@@ -91,12 +114,57 @@
 /*Osaaminen-sivua varten erilainen sivurakenne*/
 .container {
     display: grid;
-    grid-template-areas: "koulutus" "työhistoria" "taidot";
-    grid-template-columns: 1fr 3fr;
-    /*flex-direction: row;
-    justify-content: space-between;
+    grid-template-columns: 2fr 3fr;
+    /*flex-direction: row;*/
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+    /*justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
     padding: 20px;*/
 
 }
+
+.container_sisus{
+    display: flex;
+    flex-direction: column; /*tekstit menee omille riveille*/
+    justify-content: flex-start; /*ohjaa sisällön yläreunaan*/
+    border-style:double;
+    border-color: #601074;
+    padding: 10px;
+    
+}
+    
+.container_sisus p{
+        margin: 6px;
+
+    }
+.container_sisus h3{
+    text-align: center;    
+    margin: 0px;
+    
+    }
+
+.container_sisus ul{
+    padding: 10px;
+    margin: 0px;
+}
+/*.tyohistoria{
+    border-style: dashed;
+    border-color: #601074;
+    
+}
+.koulutus{
+    border-style: dashed;
+    border-color:  #601074;
+}
+.taidot{
+    border-style: dashed;
+    border-color:  #601074;
+}
+.lisaosaaminen{
+    border-style: dashed;
+    border-color:  #601074;
+}*/
+    
